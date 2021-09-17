@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "tabNavigation",
+    "slug": "tabNavigation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5A47EC"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "myfirstapptabbar"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#5A47EC"
+      },
+      "package": "com.lucasangelo20.tabNavigation"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
